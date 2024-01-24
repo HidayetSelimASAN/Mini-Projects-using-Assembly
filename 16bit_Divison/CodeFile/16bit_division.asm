@@ -1,6 +1,6 @@
 ORG 0000
 
-	MOV R0, #15H	; low byte of dividend
+	MOV R0, #15H	; Low byte of dividend
 	MOV R1, #31H	; High byte of dividend
 	MOV R2, #07H	; Specify the divisor
 	
