@@ -29,8 +29,7 @@ In order to do the divison calculation a method named successive substraction is
 
 In this method divisor is repeatedly substracted from dividend until the dividend becomes smaller than the divisor. Number of substractions gives us the result for the quotient. Remaining dividend gives us the result for the remainder. 
 
-For example:
-put a picture of an example here
+
 
 
 ## Design Specifications
