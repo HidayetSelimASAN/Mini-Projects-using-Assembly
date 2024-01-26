@@ -1,6 +1,6 @@
 <br/>
 <p align="center">
-  <h3 align="center">16 Bit Divison</h3>
+ <h1 align="center" id="title">16 Bit Divison</h1>
 
   <p align="center">
     An algorithm  to do 16 bit divison calculations on 8 bit microcontrollers 
