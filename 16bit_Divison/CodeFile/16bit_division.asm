@@ -1,7 +1,7 @@
 ORG 0000
 
-	MOV R0, #15H	; Low byte of dividend
-	MOV R1, #31H	; High byte of dividend
+	MOV R0, #26H	; Low byte of dividend
+	MOV R1, #32H	; High byte of dividend
 	MOV R2, #07H	; Specify the divisor
 	
 	MOV A, R1 
@@ -38,7 +38,7 @@ AGAIN:  CLR C
 
 HERE:	JNC AGAIN
 	CLR C
-	MOV R5, A 	;K in r5
+	MOV R5, A 	;remainder in r5
 	MOV A, 32H
 	ADD A, R6
 	MOV R3, A
