@@ -43,11 +43,11 @@ The queotient is stored in R4:R3.
 
 ## Simulation Results
 
-The number 0x3226(R1:R0) is divided by number 0x08(R2):
-The quotient is 0x0644(R4:R3)
-The remainder is 0x06(R5)
 
 ![Screen Shot](images/16_div_sim.png)
 
 
-
+The number 0x3226(R1:R0) is divided by number 0x08(R2):
+* The quotient is 0x0644(R4:R3)
+* The remainder is 0x06(R5)
+* Calculation time 835µs
