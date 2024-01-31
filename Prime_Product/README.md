@@ -46,9 +46,9 @@ We do the AND operations.
   
   35 & 01 = 05  
   
-Then number = 100*02 + 10*05 + 1*05 = 255 in Decimal
+Then number = 100 * 02 + 10 * 05 + 1 * 05 = 255 in Decimal
 
-All prime numbers betwen 1 and 255 is stored in a Look-up-Table (LUT). 
+All prime numbers betwen 1 and 255 is stored in a Look-up-Table (LUT). Divisor itarates over the LUT.  
 
 
 
