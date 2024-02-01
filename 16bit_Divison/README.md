@@ -52,9 +52,12 @@ The number 0x3226(R1:R0) is divided by number 0x08(R2):
 
 > *This simulation is done via MCU 8051 IDE*
 
-## 🎨 Further Details
+## 🔎 Further Details
 
-You may check the 
+Under CodeFile
 
-The queotient is stored in R4:R3.
+* You may check the 16bit_division.asm file  to look at my assembly code. [here](CodeFile/16bit_division.asm)
+* 16bit_divison.hex file is the related machine code. [here](CodeFile/16bit_division.hex)
+  
+
 
