@@ -64,13 +64,13 @@ Product of Prime Factors of 45:
 * 45 = (3 * 3 * 5)
   
 
-![Screen Shot](images/PrimeFactor45.png)
+![Screen Shot](Images/PrimeFactor45.png)
 
 Product of Prime Factors of 255:
 * 45 = (3 * 5 * 17)
   
-![Screen Shot](images/PrimeFactor255.png)
+![Screen Shot](Images/PrimeFactor255.png)
 
 
 
-> *This simulation is done via MCU 8051 IDE*
+> *This simulation is done via Proteus 8 Professional*
