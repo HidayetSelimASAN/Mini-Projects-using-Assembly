@@ -60,12 +60,16 @@ For design convenience subroutines and Look-up-Tables are used. 0h is put to ind
 
 ## 🏆 Simulation Results
 
-The number 0x3226(R1:R0) is divided by number 0x08(R2):
-* The quotient is 0x0644(R4:R3)
-* The remainder is 0x06(R5)
-* Calculation time 835µs
+Product of Prime Factors of 45:
+* 45 = (3 * 3 * 5)
+  
 
-![Screen Shot](images/16_div_sim.png)
+![Screen Shot](images/PrimeFactor45.png)
+
+Product of Prime Factors of 255:
+* 45 = (3 * 5 * 17)
+  
+![Screen Shot](images/PrimeFactor255.png)
 
 
 
