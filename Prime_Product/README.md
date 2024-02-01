@@ -48,7 +48,7 @@ We do the AND operations.
   
 Then number = 100 * 02 + 10 * 05 + 1 * 05 = 255 in Decimal
 
-All prime numbers betwen 1 and 255 are stored in a Look-up-Table (LUT). If a prime number divides the input number with no remainder, that number is a factor. Input number is divided by all prime numbers in LUT respectively. Divisor itarates over the LUT. Dividend is updated as quotient of the last division with no remainder. 
+All prime numbers betwen 1 and 255 are stored in a Look-up-Table (LUT). If a prime number divides the input number with no remainder, that number is a factor. Input number is divided by all prime numbers in LUT respectively. Divisor itarates over the LUT. First, Dividend is the input number. Then, each time when there is no remainder in division, dividend is updated as quotient of the last division with no remainder and the divisor is stored in stack. The process continues untill the dividend becomes 1. After this, Prime Factors stored in stack are popped and converted to ASCII. Finally, a appropriate output message is displayed on LCD. 
 
 
 
@@ -56,11 +56,7 @@ All prime numbers betwen 1 and 255 are stored in a Look-up-Table (LUT). If a pri
 
 ## 🎨 Design Specifications
 
-Dividend is an 16-bit number. Low byte stored in R0 and High byte stored in R1. Divisor is stored in R2. 
-
-The total number of substractions are counted in R6.
-
-The queotient is stored in R4:R3.
+For design convenience subroutines and Look-up-Tables are used. 0h is put to indicate the end of a LUT. All mathematical calculations are done in Register A because of the design specifications of 8051 microcontroller.  
 
 ## 🏆 Simulation Results
 
