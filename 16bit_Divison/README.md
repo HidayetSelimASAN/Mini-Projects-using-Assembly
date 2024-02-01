@@ -18,7 +18,7 @@
 ## 🎯 Purpose
 
 The aim of this project is to divide an 16-bit number by an 8-bit number on 8051 microcontroller. 
-8051 (MCS-51) is an 8-bit microcontroller. That means, it has a 8-bit data bus. Therefore, numerical calculations for higher bit numbers requires special algorithms. 
+8051 (MCS-51) is an 8-bit microcontroller. That means, it has an 8-bit data bus. Therefore, numerical calculations for higher bit numbers requires special algorithms. 
 
 
 
