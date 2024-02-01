@@ -48,7 +48,7 @@ We do the AND operations.
   
 Then number = 100 * 02 + 10 * 05 + 1 * 05 = 255 in Decimal
 
-All prime numbers betwen 1 and 255 is stored in a Look-up-Table (LUT). Divisor itarates over the LUT.  
+All prime numbers betwen 1 and 255 are stored in a Look-up-Table (LUT). If a prime number divides the input number with no remainder, that number is a factor. Input number is divided by all prime numbers in LUT respectively. Divisor itarates over the LUT. Dividend is updated as quotient of the last division with no remainder. 
 
 
 
