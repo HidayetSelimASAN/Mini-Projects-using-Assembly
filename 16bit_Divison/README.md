@@ -52,3 +52,9 @@ The number 0x3226(R1:R0) is divided by number 0x08(R2):
 
 > *This simulation is done via MCU 8051 IDE*
 
+## 🎨 Further Details
+
+You may check the 
+
+The queotient is stored in R4:R3.
+
