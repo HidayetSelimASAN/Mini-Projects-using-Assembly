@@ -40,11 +40,11 @@ User presses keypad to send 255.
 We do the AND operations.   
 
 
-  32 & 01 = 02  
+  32h & 01h = 02h  
   
-  35 & 01 = 05  
+  35h & 01h = 05h 
   
-  35 & 01 = 05  
+  35h & 01h = 05h  
   
 Then number = 100 * 02 + 10 * 05 + 1 * 05 = 255 in Decimal
 
