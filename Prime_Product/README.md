@@ -74,3 +74,16 @@ Product of Prime Factors of 255:
 
 
 > *This simulation is done via Proteus 8 Professional*
+
+
+## 🔎 Further Details
+
+Under CodeFile
+
+* You may check the PrimeFactors.asm file  to look at my assembly code. [here](CodeFile/PrimeFactors.asm)
+* PrimeFactors.hex file is the related machine code. [here](CodeFile/PrimeFactors.hex)
+
+Under Proteus 
+* You may download and check the PrimeFactor.pdsprj file for proteus simulation. [here](Proteus/PrimeFactor.pdsprj)
+  
+  
