@@ -35,20 +35,11 @@ There are 2 different timers in 8051. Timer0 is used to watch the frequency of a
 
 ## 🎨 Design Specifications
 
-Dividend is an 16-bit number. Low byte stored in R0 and High byte stored in R1. Divisor is stored in R2. 
-
-The total number of substractions are counted in R6.
-
-The queotient is stored in R4:R3.
+not completed yet
 
 ## 🏆 Simulation Results
 
-The number 0x3226(R1:R0) is divided by number 0x08(R2):
-* The quotient is 0x0644(R4:R3)
-* The remainder is 0x06(R5)
-* Calculation time 835µs
-
-![Screen Shot](images/16_div_sim.png)
+not completed yet
 
 
 
@@ -58,8 +49,8 @@ The number 0x3226(R1:R0) is divided by number 0x08(R2):
 
 Under CodeFile
 
-* You may check the 16bit_division.asm file  to look at my assembly code. [here](CodeFile/16bit_division.asm)
-* 16bit_divison.hex file is the related machine code. [here](CodeFile/16bit_division.hex)
+* You may check the C_major.asm file  to look at my assembly code. [here](CodeFile/C_major.asm)
+* C_major.hex file is the related machine code. [here](CodeFile/C_major.hex)
   
 
 
