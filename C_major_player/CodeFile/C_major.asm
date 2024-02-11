@@ -8,7 +8,7 @@ ORG 000BH
 	MOV TH0, A
 	CLR A
 	MOV A, #1
-	MOVC A, @A+DPTR
+	MOVC A, @A+DPTR  // Get the frequency from LUT
 	MOV TL0, A
 	CPL CY
 	SETB TR0
