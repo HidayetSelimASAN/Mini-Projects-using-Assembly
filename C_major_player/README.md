@@ -27,7 +27,7 @@ The aim of this project is to play C major scale on 8051 microcontroller using e
 ## 🔓 Algorithm & Methodology
 
 For C major scale, A440 pitch standard is used in this project. You may reach necessary frequencies for each note from this [link](https://pages.mtu.edu/~suits/notefreqs.html).  
-There are 2 different timers in 8051. Timer0 is used to watch the frequency of a note. Timer1 is used to watch 0.5s period for each note. 
+There are 2 different timers in 8051. Timer0 is used to watch the frequency of a note with interrupt enabled. Values for required frequencies are stored in a LUT. Using to these values, a square wave with 50% duty cycle is produced in related frequency. Timer1 is used to watch 0.5s period for each note using polling. Since 16-bit timer was not large enough to measure 0.5s for 8051's clock frequency, Timer1 is set to overflow in each 0.05s. A counter(loaded with initial value 10) is decremented by one in each overflow giving us the required frequency 0.5s (0.05s * 10). After the all C major scale is played, program repeats itself. 
 
 
 
@@ -35,15 +35,12 @@ There are 2 different timers in 8051. Timer0 is used to watch the frequency of a
 
 ## 🎨 Design Specifications
 
-not completed yet
+A LUT starting from adress 1000h, is used to store frequncy values. Each frequency is read from ROM using MOVC instruction. Square wave is outputed from PORT1.1. Both Timer0 and Timer1 are initialized in 16 bit timer mode. Timer0 inturrupt is enabled. According to  interrupt vector table of 8051, program jumps to the adress 0x0030. Here, Timer0 registers are loaded with related frequncy value and PORT1.1 is complemented. R1 is the counter loaded with value 10 used in detecting 0.5s period. 
 
 ## 🏆 Simulation Results
 
 not completed yet
 
-
-
-> *This simulation is done via MCU 8051 IDE*
 
 ## 🔎 Further Details
 
