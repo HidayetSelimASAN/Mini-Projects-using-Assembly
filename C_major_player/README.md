@@ -40,7 +40,7 @@ A LUT starting from adress 1000h, is used to store frequncy values. Each frequen
 ## 🏆 Simulation Results
 
 not completed yet
-
+ 
 
 ## 🔎 Further Details
 
